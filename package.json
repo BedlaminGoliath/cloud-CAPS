@@ -1,0 +1,27 @@
+{
+  "name": "cloud-caps",
+  "version": "1.0.0",
+  "description": "a delivery service system built off of the cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vendor": "node vendor/index.js"
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BedlaminGoliath/cloud-CAPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BedlaminGoliath/cloud-CAPS/issues"
+  },
+  "homepage": "https://github.com/BedlaminGoliath/cloud-CAPS#readme",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.32.0",
+    "chance": "^1.1.9"
+  }
+}
