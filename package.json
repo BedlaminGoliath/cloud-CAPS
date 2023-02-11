@@ -6,8 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "vendor": "node vendor/index.js"
-
-
   },
   "repository": {
     "type": "git",
@@ -22,6 +20,7 @@
   "homepage": "https://github.com/BedlaminGoliath/cloud-CAPS#readme",
   "dependencies": {
     "@aws-sdk/client-sqs": "^3.32.0",
-    "chance": "^1.1.9"
+    "chance": "^1.1.9",
+    "dotenv": "^16.0.3"
   }
 }
